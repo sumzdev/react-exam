@@ -1,5 +1,7 @@
+import ThinkReact from "./ThinkReact";
+
 function App() {
-  return <div className="App">Learn React</div>;
+  return <ThinkReact />;
 }
 
 export default App;
