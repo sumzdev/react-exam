@@ -8,6 +8,7 @@ export default function FilterableProductTable({ products }) {
 
   const onClickCheckbox = () => {
     setOnlyStock(!onlyStock);
+    console.log(onlyStock);
   };
 
   const onChangeSearch = (e) => {
